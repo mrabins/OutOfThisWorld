@@ -1,5 +1,5 @@
 //
-//  OWViewController.h
+//  OWOuterWorldTableViewController.h
 //  Out Of This World
 //
 //  Created by Mark Rabins on 5/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OWViewController : UIViewController
+@interface OWOuterWorldTableViewController : UITableViewController
 
 @end
