@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OWSpaceObject.h"
 
-@interface OWSpaceDataViewController : UIViewController
+@interface OWSpaceDataViewController : UIViewController < UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) OWSpaceObject *spaceObject;
+
 
 @end
